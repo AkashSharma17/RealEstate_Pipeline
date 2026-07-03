@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Data (raw/processed data usually shouldn't be pushed to GitHub) ---
+data/raw/*
+data/processed/*
+data/cleaned/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/cleaned/.gitkeep
+
+# --- Output / Visualizations (matches code: output/visualizations) ---
+output/visualizations/*
+!output/visualizations/.gitkeep
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment variables ---
+.env
